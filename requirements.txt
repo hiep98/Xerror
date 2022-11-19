@@ -22,12 +22,12 @@ idna==2.10
 incremental==21.3.0
 ipaddress==1.0.23
 kombu==3.0.35
-lxml==4.6.5
+lxml==4.9.1
 msgpack-python==0.4.7
 olefile==0.46
 openvas-lib==1.1.4
 pdfkit==0.6.1
-Pillow==9.0.1
+Pillow==9.2.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycairo==1.16.2
@@ -49,3 +49,4 @@ typing==3.10.0.0
 urllib3==1.26.5
 webencodings==0.5.1
 zope.interface==4.2.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

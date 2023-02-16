@@ -43,9 +43,10 @@ redis==2.10.5
 reportlab==3.5.55
 service-identity==21.1.0
 six==1.10.0
-Twisted==16.2.0
+Twisted==22.10.0rc1
 txaio==2.5.1
 typing==3.10.0.0
 urllib3==1.26.5
 webencodings==0.5.1
 zope.interface==4.2.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

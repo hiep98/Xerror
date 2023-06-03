@@ -40,7 +40,7 @@ pyOpenSSL==20.0.1
 PyPDF2==1.26.0
 pytz==2016.6.1
 redis==2.10.5
-reportlab==3.5.55
+reportlab==3.6.13
 service-identity==21.1.0
 six==1.10.0
 Twisted==16.2.0
